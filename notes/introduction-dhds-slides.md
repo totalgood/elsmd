@@ -23,7 +23,7 @@ bibliography: ../sources/introduction-dhds-sources.bib
 - Training predictive models using data
 - Using machine learning to model the world
 
-\note{
+::: notes
 
 Data science is about applying the scientific method to data.
 The scientific method is about testing hypotheses.
@@ -40,7 +40,7 @@ Most of the time it means simply predicting one numerical fact, called the targe
 - new algorithms
 - faster computers
 
-\note{
+::: notes
 
 Moore's law and the Internet have produced a virtuous cycle of exponential growth in data, computational power, and medical technology.
 
@@ -62,7 +62,7 @@ diagram of arrows of computer tech feeding back into medical tech and spinoff te
 - wikipedia, pub med -> more educated patients and doctors -> self-help medicine
 - embedded processes -> insulin pumps and pace makers -> more data -> treatments for computer scientists
 
-\note{
+::: notes
 
 Faster and faster computers have enabled computer scientists, physicicists, chemists, and biologists to test and experiment with more and more efficient models and algorithms for biological systems.
 And those algorithms have helped scientists generate and record more and more data about biology.
@@ -71,16 +71,16 @@ For example, as we learn more and more about the human brain and neurobiology we
 It's that one advancement, often called deep learning that has
 and advance medical technology which have in turned generated more data and life-saving technologies to motivate additional investment and growth in technology.
 
-}
+:::
 
 # Gene Sequencing
 
-\note{
+::: notes
 
 The sequencing of the human genome, containing 3B base would not have been possible if it weren't for fast comptures with vast storage.
 23andme, fitbit spawned a citizen science and self-service medicine trend (quantified self)
 
-}
+:::
 
 # What is a data scientist
 
@@ -88,12 +88,12 @@ The sequencing of the human genome, containing 3B base would not have been possi
 - A computer programmer than understand statistics
 - A statstician that lives in Silicon Valley
 
-\note{
+::: notes
 
 So you want to be a data scientist so you can help save lives?
 
 
-}
+:::
 
 # Healthcare Data Science
 
@@ -128,7 +128,7 @@ Layers are added/modified over time to show the evolving geography of a phenomen
 The end result is a "spy satellite" movie.
 The past history of all the events nearby are all relevant feature for the prediction of what is about to happen at a particular location at a particular time.
 
-}
+:::
 
 # Epidemiology
 
@@ -137,7 +137,28 @@ A python exercise in simulation of an epidemic.
 
 MIT Intro to Computational Thinking [Problem Set 4: Simulating the Spread of Disease and Bacteria Population (ZIP)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/assignments/PS4.zip)
 
-# A slide to show overlay tricks
+# Spurious Correlation
+
+![Cheesy Bedsheet Tanglings](../media/spurious-correlation-tyler-vygen-bedsheet-tangling-deaths.svg)
+[tyler vigen](http://tylervigen.com/spurious-correlations)
+
+# Confounding
+
+[NIH guidelines](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4017459/)
+
+::: notes
+The debate around smoking wasn't entirely the fault of big tobacco lobbying groups. Many doctors and statisticians believed their own statistical analyses that show
+At the very end of this long discussion of all the techniques that have been used in the past, and how they are all flawed in one way or another, it finally mentions at the very end that a multivariate model designed with domain knowledge and a causal model are the only way to be sure.
+:::
+
+# Causal Revolution
+
+::: notes
+Sometimes prediction is not enough. To cure diseases, to save lives, you need a causal model.
+:::
+
+
+# DEMO: Slide overlay tricks
 
 \only<1,3>{This text appears on the first and third versions of the slide, but not the second.}
 
@@ -186,22 +207,3 @@ To get overlay effects with materials placed using \texttt{textpos}, you have to
 }
 
 
-# Spurious Correlation
-
-![Cheesy Bedsheet Tanglings](../media/spurious-correlation-tyler-vygen-bedsheet-tangling-deaths.svg)
-[tyler vigen](http://tylervigen.com/spurious-correlations)
-
-# Confounding
-
-[NIH guidelines](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4017459/)
-
-:::note
-The debate around smoking wasn't entirely the fault of big tobacco lobbying groups. Many doctors and statisticians believed their own statistical analyses that show
-At the very end of this long discussion of all the techniques that have been used in the past, and how they are all flawed in one way or another, it finally mentions at the very end that a multivariate model designed with domain knowledge and a causal model are the only way to be sure.
-:::
-
-# Causal Revolution
-
-:::note
-Sometimes prediction is not enough. To cure diseases, to save lives, you need a causal model.
-:::
