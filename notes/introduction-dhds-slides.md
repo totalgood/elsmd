@@ -32,7 +32,7 @@ So Data Science allows us to make predictions about new data based on data that 
 This isn't necessarily about predictions in the future.
 Most of the time it means simply predicting one numerical fact, called the target, based on a bunch of other numerical facts, called features, predictors, or indicators.
 
-}
+:::
 
 # What's different?
 
@@ -44,7 +44,7 @@ Most of the time it means simply predicting one numerical fact, called the targe
 
 Moore's law and the Internet have produced a virtuous cycle of exponential growth in data, computational power, and medical technology.
 
-}
+:::
 
 # Virtuous cycle
 
