@@ -10,7 +10,7 @@ mainfont: Hoefler Text
 biblatex: true
 biblatex-chicago: true
 biblatexoptions: [notes, noibid]
-bibliography: ../sources.bib
+bibliography: ../sources/introduction-dhds-sources.bib
 ---
 
 # Digital Health Data Science
@@ -184,3 +184,24 @@ Grid demo LL
 To get overlay effects with materials placed using \texttt{textpos}, you have to specify the overlay within the \texttt{textblock} environment.
 
 }
+
+
+# Spurious Correlation
+
+![Cheesy Bedsheet Tanglings](../media/spurious-correlation-tyler-vygen-bedsheet-tangling-deaths.svg)
+[tyler vigen](http://tylervigen.com/spurious-correlations)
+
+# Confounding
+
+[NIH guidelines](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4017459/)
+
+:::note
+The debate around smoking wasn't entirely the fault of big tobacco lobbying groups. Many doctors and statisticians believed their own statistical analyses that show
+At the very end of this long discussion of all the techniques that have been used in the past, and how they are all flawed in one way or another, it finally mentions at the very end that a multivariate model designed with domain knowledge and a causal model are the only way to be sure.
+:::
+
+# Causal Revolution
+
+:::note
+Sometimes prediction is not enough. To cure diseases, to save lives, you need a causal model.
+:::

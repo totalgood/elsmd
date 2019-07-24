@@ -1,7 +1,7 @@
 ---
 title: Written-out Talk
 author: |
-  Scripted Talker  
+  Scripted Talker
   University of Careful Planning
 date: May 1, 1894
 mainfont: Hoefler Text
@@ -11,7 +11,7 @@ sansfont: Gill Sans
 biblatex: true
 biblatex-chicago: true
 biblatexoptions: [notes, noibid]
-bibliography: ../sources.bib
+bibliography: ../sources/sample-sources.bib
 ...
 
 But vertical motion predominates in reading for those who have really acquired the skill.

@@ -10,7 +10,7 @@ mainfont: Hoefler Text
 biblatex: true
 biblatex-chicago: true
 biblatexoptions: [notes, noibid]
-bibliography: ../sources.bib
+bibliography: ../sources/sample-sources.bib
 ---
 
 # Digital Health Data Science
